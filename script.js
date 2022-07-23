@@ -30,5 +30,5 @@ function calculateLove() {
 
   const final = Math.round(result + maxout) % 100;
 
-  document.querySelector(".result").innerHTML = `${final}%`;
+  document.querySelector(".resultText").innerHTML = `${final}%`;
 }
