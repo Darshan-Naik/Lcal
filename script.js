@@ -1,8 +1,8 @@
 function calculateLove() {
   let name1 = document.querySelector(".name1").value;
   let name2 = document.querySelector(".name2").value;
-  name1 = name1.toLowerCase();
-  name2 = name2.toLowerCase();
+  name1 = name1.toLowerCase().trim();
+  name2 = name2.toLowerCase().trim();
   if (!name1.length) {
     document.querySelector(".name1").placeholder = "Please enter name";
     return;
